@@ -33,7 +33,7 @@
         </div>
         <hr>
         <button type="button" id="add-button" value="{{product.id}}" class="btn btn-success fw500">Add to
-          basket</button>
+          cart</button>
         <a href="{% url "account:user_wishlist" product.id  %}" class="btn btn-light fw500" role="button" aria-disabled="true">Add to Wish List</a>
       </div>
     </div>
@@ -68,7 +68,7 @@
       e.preventDefault();
       $.ajax({
         type: 'POST',
-        url: '{% url "basket:basket_add" %}',
+        url: '{% url "cart:cart_add" %}',
         data: {
           productid: $('#add-button').val(),
           productqty: $('#select option:selected').text(),
@@ -76,7 +76,7 @@
           action: 'post'
         },
         success: function (json) {
-          document.getElementById("basket-qty").innerHTML = json.qty
+          document.getElementById("cart-qty").innerHTML = json.qty
         },
         error: function (xhr, errmsg, err) {}
       });
