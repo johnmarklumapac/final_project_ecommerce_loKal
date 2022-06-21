@@ -52,17 +52,17 @@ Summary{%endblock %} {% block content %}
       </div>
       <div class="text-end">
         <div class="">
-          Sub Total: <span class="fw-bold">£</span>
+          Sub Total: <span class="fw-bold">₱</span>
           <div id="subtotal" class="d-inline-flex fw-bold">
             {{cart.get_subtotal_price}}
           </div>
         </div>
         <div id="">
-          Shipping <span class="small">(Next day delivery)</span>:
-          <span class="fw-bold">£11.50</span>
+          Shipping Fee <span class="small"></span>:
+          <span class="fw-bold">₱11.50</span>
         </div>
         <div class="pt-2">
-          Total to pay: <span class="fw-bold h5">£</span
+          Total to pay: <span class="fw-bold h5">₱</span
           ><span id="total" class="fw-bold h5">{{cart.get_total_price}}</span>
         </div>
       </div>
