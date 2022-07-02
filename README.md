@@ -2,7 +2,7 @@
 
 1. Activate virtual environment using command : 
 
-          virtualenv/Scripts/Activate
+          vertualenv/Scripts/Activate
           
           
 2. Install dependencies using command:
