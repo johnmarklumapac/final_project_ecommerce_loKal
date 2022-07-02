@@ -1,4 +1,4 @@
-# final_project_ecommerce_loKal  (Mao ni ang steps sir para ma run akung program)
+# final_project_ecommerce_loKal  Mao ni ang steps sir para ma run akung program
 
 1. Activate virtual environment using command : 
 
@@ -14,4 +14,4 @@
             py manage.py runserver
             
             
- ( Naa sa first 3min example video nako gi explain ang mabuhat sa akung website. Salamat sir )
+ Naa sa first 3min example video nako gi explain ang mabuhat sa akung website. Salamat sir 
